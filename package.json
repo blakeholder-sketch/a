@@ -1,0 +1,25 @@
+{
+  "name": "f1-discord-bot",
+  "version": "0.1.0",
+  "description": "Formula 1 inspired Discord bot providing schedules, standings, driver cards, and more.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "sqlite3": "^5.1.6",
+    "sqlite": "^4.1.1",
+    "node-cron": "^3.0.2",
+    "canvas": "^2.11.2"
+  }
+}
